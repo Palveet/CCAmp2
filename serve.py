@@ -16,4 +16,4 @@ def handle_get():
     return 'This server\'s private IP address is: ' + private_ip, 200
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=80)
+    app.run(host='0.0.0.0', port=5000)
